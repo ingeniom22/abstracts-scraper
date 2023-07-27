@@ -8,6 +8,6 @@
 from itemadapter import ItemAdapter
 
 
-class CompfestPipeline:
+class AbstractsScraperPipeline:
     def process_item(self, item, spider):
         return item
